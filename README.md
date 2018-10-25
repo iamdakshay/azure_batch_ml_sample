@@ -8,10 +8,12 @@ You can refere architecture diagram for building blocks of solution.
 
 Solution depends on:
 
-Azure IoT Hub
-Azure Stream Analytics
-Azure Batch AI
-Azure Storage - SQL, BLOB
+* Azure IoT Hub
+* Azure Stream Analytics
+* Azure Batch AI
+* Azure Storage - SQL, BLOB
+
+Solution steps:
 
 1. Devices (Transformers) are connected to Azure IoT Hub. Devices are sending sensor data to Azure IoT Hub per 30 seconds. Azure IoT Hub is used for connecting IoT devices at scale.
 2. Stream Analytics job will run on injested data and aggregate it per device type for last five minutes (10 sensor values per feature). Aggreagated data will be saved to Azure SQL database.
