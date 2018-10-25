@@ -3,6 +3,7 @@
 This repository demonstarte how to train models parallely using Azure Batch AI service.
 
 You can refere architecture diagram for building blocks of solution.
+
 ![Solution Block Diagram](https://github.com/Coder-2xx/batch-ml/blob/master/using-azure-batch-ai/solution-architecture.png)
 
 Solution depends on:
