@@ -1,4 +1,4 @@
-# batch-ml
+# Azure batch ml sample
 
 This repository demonstarte how to train models parallely using Azure Batch AI service.
 
